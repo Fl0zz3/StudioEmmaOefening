@@ -84,10 +84,10 @@ class KortingService
             ],
             [
                 'winkelmandje.*.productId.required' => 'ProductId moet aanwezig zijn.',
-                'winkelmandje.*.productNaam' => 'Product naam moet aanwezig zijn',
-                'winkelmandje.*.aantal' => 'Aantal naam moet aanwezig zijn',
-                'winkelmandje.*.eenheidsprijs' => 'Eenheidsprijs naam moet aanwezig zijn',
-                'winkelmandje.*.BTW' => 'BTW naam moet aanwezig zijn',
+                'winkelmandje.*.productNaam.required' => 'Product naam moet aanwezig zijn',
+                'winkelmandje.*.aantal.required' => 'Aantal naam moet aanwezig zijn',
+                'winkelmandje.*.eenheidsprijs.required' => 'Eenheidsprijs naam moet aanwezig zijn',
+                'winkelmandje.*.BTW.required' => 'BTW naam moet aanwezig zijn',
             ]
         );
     }
@@ -108,6 +108,6 @@ winkelmandje: {
         "aantal":       "6",
         "eenheidsprijs":"50",
         "BTW":          "21",
-    },
+    }
 }
  **/
